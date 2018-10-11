@@ -1,0 +1,53 @@
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: rgb(20, 105, 105);
+}
+
+/*
+Potential interview question:
+What's the difference between these 3?
+*/
+/* .nav > li
+
+li.nav
+
+.nav li */
+
+a {
+    color: black;
+}
+
+.my-navbar {
+    background-color:#ffd4af;
+
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+.jumbotron {
+    background-image: url(../images/unsplash.jpg);
+    background-size: 100% auto;
+    
+}
+.jumbotron h1, .jumbotron p {
+    background-color: rgba(0,0,0, .125);
+}
+
+.dropdown {
+    color: black;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.dropdown-toggle {
+    color: black;
+}
+
+
+
+/* go up one directory and then back down into the next one (..)
